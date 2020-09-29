@@ -3,7 +3,7 @@
 //--------------------------------------------------------------
 void ofApp::setup() {
 
-    font.load("ariblk.ttf", 150, true, true, true);
+    font.load("ariblk.ttf", 120, true, true, true);
 
 }
 
@@ -17,7 +17,7 @@ void ofApp::draw() {
 
     ofBackground(255);
 
-    vector < ofPath > paths = font.getStringAsPoints("MIT\nMEDIA\nLAB");
+    vector < ofPath > paths = font.getStringAsPoints("Harvard\nGSD\nMDES");
 
     ofTranslate(20, 190);
 
